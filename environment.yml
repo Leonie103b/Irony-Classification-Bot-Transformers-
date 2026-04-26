@@ -1,0 +1,22 @@
+name: irony-eval
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10,<3.13
+  - ipykernel
+  - jupyterlab
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - openpyxl
+  - pytorch
+  - transformers
+  - datasets
+  - huggingface_hub
+  - pip
+  - pip:
+      - accelerate
